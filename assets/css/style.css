@@ -244,6 +244,19 @@ article.active {
   padding-bottom: 7px;
 }
 
+.download-icon {
+  font-size: 30px; /* Adjust size */
+  margin-left:20px; /* Add some space between the text and the icon */
+  padding-bottom: 40px;
+}
+.download-icon-color {
+  color: green;
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* This will vertically align the text and icon */
+}
 .article-title::after {
   content: "";
   position: absolute;
